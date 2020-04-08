@@ -108,8 +108,8 @@ UPDATE users
 SET order_id = 3
 WHERE user_id = 3;
 
--- Run queries against your data.
--- Get all orders for a user.
+-- run queries against your data
+-- get all orders for a user
 SELECT *
 FROM users u
     INNER JOIN orders o
