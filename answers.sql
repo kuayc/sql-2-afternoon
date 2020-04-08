@@ -97,6 +97,6 @@ IN
 (SELECT album_id
 FROM album
 WHERE artist_id IN 
- 	(SELECT artist_id
+(SELECT artist_id
 from artist
 WHERE name = 'Queen'));
